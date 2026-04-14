@@ -12,6 +12,10 @@ body{
     background-color: #080808;
 }
 
-.background {
-
+.hero {
+    background-image: url("/assets/imagem.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
