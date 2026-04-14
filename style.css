@@ -1,17 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.cards {
-    display: flex;
-    gap: 20px;
-}
-
-.card {
-    background-color: #ffffff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 30%;
 }
