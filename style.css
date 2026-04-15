@@ -18,7 +18,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: -70px;
+    margin-top: -90px;
 }
 
 header{
@@ -29,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 50px;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
     padding: 10px;
 }
