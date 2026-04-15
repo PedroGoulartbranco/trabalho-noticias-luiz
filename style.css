@@ -49,3 +49,42 @@ a:link, a:visited, a:hover, a:active {
     color: #f8f4f4; /* Cor desejada, ex: preto */
     text-decoration: none; /* Remove o sublinhado */
 }
+
+.mural {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.mural h2 {
+  color: #ffffff;
+  border-bottom: 3px solid #690e29;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.tabela-eventos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-eventos th {
+  background: #690e29;
+  color: #fff;
+  padding: 10px;
+}
+
+.tabela-eventos td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.aberto {
+  color: green;
+  font-weight: bold;
+}
+
+.breve {
+  color: rgb(188, 16, 16);
+  font-weight: bold;
+}
