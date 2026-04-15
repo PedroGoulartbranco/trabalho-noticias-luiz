@@ -98,6 +98,7 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center; /* centraliza */
     gap: 20px;
     flex-wrap: nowrap; /* NÃO deixa quebrar linha */
+    gap: 100px;
 
 }
 
@@ -120,7 +121,7 @@ a:link, a:visited, a:hover, a:active {
 
 .card h3 {
     margin-bottom: 20px;
-    color: #ff004c;
+    color: #690e29;
 }
 
 .card p {
