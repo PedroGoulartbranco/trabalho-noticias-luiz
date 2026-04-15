@@ -129,6 +129,44 @@ a:link, a:visited, a:hover, a:active {
 .formulario {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza horizontalmente */
+  align-items: center; 
   padding: 40px 20px;
+}
+
+form {
+    width: 500px; 
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input, 
+textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #000;
+    color: white;
+    font-family: inherit;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.botao-enviar {
+    width: 100%;             
+    background-color: #690e29;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
 }
