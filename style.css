@@ -13,7 +13,7 @@ body{
 }
 
 .hero {
-    background-image: url("/assets/imagem.png");
+    background-image: url("assets/imagem.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
