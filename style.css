@@ -21,20 +21,31 @@ body{
     margin-top: -70px;
 }
 
-.menu{
+header{
     background-color: #690e29;
     margin: 20px;
     border-radius: 2%;
     position: relative;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     height: 50px;
     font-size: 25px;
     align-items: center;
+    padding: 10px;
 }
 
 ul{
     display: flex;
-    justify-content: flex-;
+    list-style-type: none;
+    gap: 10px;
+}
+
+li{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #f8f4f4; /* Cor desejada, ex: preto */
+    text-decoration: none; /* Remove o sublinhado */
 }
