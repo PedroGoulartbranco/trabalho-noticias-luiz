@@ -105,10 +105,26 @@
         </tbody>
       </table>
     </section>
-    <section id="form" class="form">
-      <h2>Formulário</h2>
+    <section id="form" class="form formulario">
+      <h2 class="titulo_formulario">Formulário</h2>
       <form>
-
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" name="email" placeholder="Digite seu email">
+        </div>
+        <div>
+          <label for="titulo">Títudo Notícia:</label>
+          <input type="text" name="titulo" placeholder="Digite o título da notícia">
+        </div>
+        <div>
+          <label for="descricao">Descrição:</label>
+          <textarea name="descricao" rows="5"></textarea>
+        </div>
+        <button type="submit" class="botao-enviar">Enviar Notícia</button>
       </form>
     </section>
   </main>
